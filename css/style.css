@@ -56,7 +56,7 @@ h1 span{
 }
 
 h1 span{
-	font-size: 5vw;
+	font-size: 4vw;
 }
 @keyframes eid{
 	0%{
@@ -75,8 +75,8 @@ h1 span{
 	margin-left: 150px;
 }
 .video{
-	font-size: 5vh;
-	margin-left: 10px;
+	font-size: 2vh;
+	margin-left: 2vw;
 }
 
 h1 span:nth-child(1){
@@ -126,17 +126,34 @@ h1 span:nth-child(11){
 	animation-delay:5.5s;
 	
 }
-@media only screen and (max-width: 450px-800px){
+@media only screen and (max-width: 450px 800px){
+
+	section{
+		font-size: 60px;
+	}
+
+	h1 span{
+		font-size: 	30px;
+}
+.video{
+	font-size: 20px;
+	margin-left: 35px;
+}
+
+
+}
+@media only screen and (max-width: 1080px 2040px){
 
 	section{
 		font-size: 50px;
 	}
 
 	h1 span{
-		font-size: 	70px;
+		font-size: 	20px;
 }
-.video{
-	font-size: 50px;
+	.video{
+		font-size: 30px;
+		margin-left: 50px;
 }
 
 
